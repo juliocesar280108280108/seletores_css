@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: blue;
+}
+
+.paragrafo{
+    border: 1px solid #0ff;
+    color: blueviolet;
+    margin-top: 1rem;
+}
+
+#titulo{
+    color: darkgoldenrod;
+    margin-bottom: 1rem;
+}
+
+inpu[type="password"] {
+    font-size: 3rem;
+}
+
+.loginform input{
+    font-size: 2rem;
+    color: red
+}
+
+.loginform > input {
+    color:aqua;
+    width: 10rem;
+
+}
+
+.cadastro-form div input:nth-of-type(2) {
+    background: #00f;
+
+}
